@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es2015", "dom"],
+    "jsx": "react",
+    "strictNullChecks": true,
+    "moduleResolution": "node"
+  },
+  "include": ["./src/**/*", "./types/global.d.ts"]
+}

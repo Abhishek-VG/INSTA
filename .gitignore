@@ -1,0 +1,9 @@
+# dependencies
+node_modules
+
+# production
+build
+
+# other files
+package-lock.json
+.vscode/settings.json
