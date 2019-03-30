@@ -67,13 +67,5 @@ module.exports = {
     new CopyWebpackPlugin([{ from: 'public/favicon.png', to: 'build' }]),
     // for module size analyzing
     new BundleAnalyzerPlugin()
-  ],
-  // devserver
-  devServer: {
-    port: 1234,
-    open: true,
-    noInfo: false,
-    // hotOnly: true,
-    hot: true
-  }
+  ]
 };
