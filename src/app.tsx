@@ -2,7 +2,7 @@ import * as React from 'react';
 import './style.css';
 
 export default class App extends React.Component {
-  componentDidMount() {
+  public componentDidMount() {
     import('./lazyLoadedFile').then((mod) => {
       mod.default();
     });
