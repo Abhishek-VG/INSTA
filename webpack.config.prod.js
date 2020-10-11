@@ -66,6 +66,6 @@ module.exports = {
     // copies static files
     new CopyWebpackPlugin([{ from: 'public/favicon.png', to: 'build' }]),
     // for module size analyzing
-    new BundleAnalyzerPlugin()
+    // new BundleAnalyzerPlugin()
   ]
 };
