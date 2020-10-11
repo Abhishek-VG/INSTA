@@ -1,2 +1,1 @@
-# react-webpack-boilerplate
-React + Webpack boiler platefor development and bundling purpose 
+https://tcsreact.herokuapp.com/
