@@ -1,3 +1,7 @@
+body {
+  font-family: monospace;
+  color: grey
+}
 .container {
   display: flex;
   justify-content: center;
@@ -6,4 +10,70 @@
   align-items: center;
   height: 100vh;
   color: #fdfcfc;
+}
+
+.imageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ }
+
+.card {
+  width: 450px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+}
+
+.parentContainer {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: auto;
+  height: 200px;
+}
+
+.svg {
+  padding: 10px;
+  display: inline-flex;
+  margin-top: 5px
+}
+
+.svgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.likes {
+  display: flex;
+  margin-left: 10px;
+}
+
+.others {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.sort {
+  font-weight: 600;
+  margin: 10px;
+}
+
+.sortContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  position: fixed;
+}
+
+.current {
+  color: green;
+  font-weight: bold;
+  background: yellow;
 }
